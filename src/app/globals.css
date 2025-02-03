@@ -21,7 +21,7 @@ body {
 }
 
 input:-webkit-autofill {
-  background-color: #FFFFFF !important;
+  background-color: var(--background) !important;
   -webkit-box-shadow: 0 0 0px 1000px var(--background) inset;
   box-shadow: 0 0 0px 1000px var(--background) inset;
 }
